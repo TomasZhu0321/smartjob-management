@@ -6,16 +6,42 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="smartjob-management" />
+        <module name="resume-service" />
+        <module name="config-server" />
+        <module name="authentication-service" />
+        <module name="application-service" />
+        <module name="payment-service" />
+        <module name="visualization-service" />
+        <module name="user-service" />
+        <module name="eureka-server" />
+        <module name="notification-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="smartjob-management" target="17" />
+      <module name="application-service" target="17" />
+      <module name="authentication-service" target="17" />
+      <module name="config-server" target="17" />
+      <module name="eureka-server" target="17" />
+      <module name="notification-service" target="17" />
+      <module name="payment-service" target="17" />
+      <module name="resume-service" target="17" />
+      <module name="smartjob-management" target="1.5" />
+      <module name="user-service" target="17" />
+      <module name="visualization-service" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="smartjob-management" options="-parameters" />
+      <module name="application-service" options="-parameters" />
+      <module name="authentication-service" options="-parameters" />
+      <module name="config-server" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
+      <module name="notification-service" options="-parameters" />
+      <module name="payment-service" options="-parameters" />
+      <module name="resume-service" options="-parameters" />
+      <module name="smartjob-management" options="" />
+      <module name="user-service" options="-parameters" />
+      <module name="visualization-service" options="-parameters" />
     </option>
   </component>
 </project>
