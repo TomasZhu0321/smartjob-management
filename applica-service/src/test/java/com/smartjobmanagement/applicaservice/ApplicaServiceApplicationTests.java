@@ -1,10 +1,10 @@
-package com.smartjobmanagement.applicationservice;
+package com.smartjobmanagement.applicaservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ApplicationServiceApplicationTests {
+class ApplicaServiceApplicationTests {
 
 	@Test
 	void contextLoads() {

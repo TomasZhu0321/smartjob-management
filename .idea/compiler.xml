@@ -15,9 +15,11 @@
         <module name="user-service" />
         <module name="eureka-server" />
         <module name="notification-service" />
+        <module name="applica-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="applica-service" target="17" />
       <module name="application-service" target="17" />
       <module name="authentication-service" target="17" />
       <module name="config-server" target="17" />
@@ -32,6 +34,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="applica-service" options="-parameters" />
       <module name="application-service" options="-parameters" />
       <module name="authentication-service" options="-parameters" />
       <module name="config-server" options="-parameters" />
